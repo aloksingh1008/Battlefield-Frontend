@@ -308,14 +308,14 @@ function CombinedServerBrowserPage({ serverData }) {
           {/* Top images */}
           <div className="mb-8 pt-2 flex flex-col items-center"> {/* Changed flex-wrap to flex-col here for consistent vertical stacking */}
             <Icon icon={FaUsers} size={12} />
-            <img src="public/join.svg" alt="User Avatar" className="w-10 h-10 mb-8 mt-4" />
+            <img src="./join.svg" alt="User Avatar" className="w-10 h-10 mb-8 mt-4" />
 
             <Icon icon={FaRegDotCircle} size={12} />
-            <img src="public/friend profile pic.svg" alt="User Avatar" className="w-10 h-10 mb-8 mt-4" />
+            <img src="./friend profile pic.svg" alt="User Avatar" className="w-10 h-10 mb-8 mt-4" />
 
             <Icon icon={FaRegCircle} size={12} />
             <img
-              src="./public/image 2.svg"
+              src="./image 2.svg"
               alt="User Avatar"
               className="w-10 h-10 mb-8 mt-4 opacity-50"
             />
