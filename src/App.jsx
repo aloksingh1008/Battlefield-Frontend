@@ -27,6 +27,12 @@ export default function App() {
         });
     }, 1000);
 
+    document.title = "Battlefield 4"; 
+    const link = document.querySelector("link[rel~='icon']");
+  if (link) {
+    link.href = "./side-menu__game copy 2.svg";
+  }
+
     return () => clearTimeout(timer);
   }, []);
 
