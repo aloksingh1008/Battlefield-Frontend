@@ -48,10 +48,8 @@ function CombinedServerBrowserPage({ serverData }) {
       <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
 
       {/* Left Menu Section */}
-      <div className="
-        w-20 flex-shrink-0 h-full // Always fixed width, don't shrink, full height
-        relative z-10 bg-opacity-80 flex flex-col items-center py-6 space-y-8
-      ">
+      <div className="w-20 flex-shrink-0 min-h-screen relative z-10 bg-opacity-80 flex flex-col items-center py-6 space-y-8">
+
         <div className="absolute right-0 top-0 h-full w-[0.1px] bg-gray-600"></div>
         <div className="absolute left-0 top-[290px] h-[40px] w-[3px] bg-orange-500"></div>
         <div className="flex flex-col h-full py-6">
