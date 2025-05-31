@@ -10,7 +10,7 @@ import {
 
 import { fetchServerDetails } from './data/serverDetails'; // Import your data loader
 
-const backgroundImage = '/menu__background.svg';
+const backgroundImage = './menu__background.svg';
 
 export default function App() {
   const [serverData, setServerData] = useState(null);
@@ -207,18 +207,18 @@ function CombinedServerBrowserPage({ serverData }) {
         <div className="p-2 rounded-lg mb-8 mt-6">
           <h2 className="text-[35px] font-medium mb-2 tracking-wide">#1| NASA | Noobs Welcome | Conquest 40Hz</h2>
           <div className="text-sm text-white mb-4 tracking-wide flex items-start text-[20px]">
-  <GermanFlag /> &nbsp;
-  <span className="ml-2"> {/* Added a span for the text and some left margin */}
-    CONQUEST LARGE - SIEGE OF SHANGHAI - NORMAL - 40 HZ
-  </span>
-</div>
+            <GermanFlag /> &nbsp;
+            <span className="ml-2"> {/* Added a span for the text and some left margin */}
+              CONQUEST LARGE - SIEGE OF SHANGHAI - NORMAL - 40 HZ
+            </span>
+          </div>
           <div class="text-sm tracking-wide flex flex-wrap items-center text-[18px] w-full">
-  <p class="inline pr-1">Server protected by The_K-50 AntiCheat. VIP !Rules, Questions, Request, Appeal, Visit us:</p>
-  <a href="https://www.epg.gg" class="text-blue-400 hover:underline inline-block md:whitespace-nowrap" target="_blank" rel="noopener noreferrer">www.epg.gg</a>
-  <span class="inline-block px-1">|</span>
-  <span class="inline-block pr-1">Discord</span>
-  <a href="https://discord.gg/3r5NK46" class="text-blue-400 hover:underline inline-block md:whitespace-nowrap" target="_blank" rel="noopener noreferrer">https://discord.gg/3r5NK46</a>
-</div>
+            <p class="inline pr-1">Server protected by The_K-50 AntiCheat. VIP !Rules, Questions, Request, Appeal, Visit us:</p>
+            <a href="https://www.epg.gg" class="text-blue-400 hover:underline inline-block md:whitespace-nowrap" target="_blank" rel="noopener noreferrer">www.epg.gg</a>
+            <span class="inline-block px-1">|</span>
+            <span class="inline-block pr-1">Discord</span>
+            <a href="https://discord.gg/3r5NK46" class="text-blue-400 hover:underline inline-block md:whitespace-nowrap" target="_blank" rel="noopener noreferrer">https://discord.gg/3r5NK46</a>
+          </div>
 
           <div className="flex items-center space-x-1 mb-4 mt-6 flex-wrap">
             <button className="px-6 py-2 bg-transparent border border-gray-600 text-white hover:bg-gray-600 w-56 mb-2 sm:mb-2">JOIN</button>
@@ -307,13 +307,13 @@ function CombinedServerBrowserPage({ serverData }) {
 
           {/* Top images */}
           <div className="mb-8 pt-2 flex flex-col items-center"> {/* Changed flex-wrap to flex-col here for consistent vertical stacking */}
-            <Icon icon={FaUsers} size={12}/>
+            <Icon icon={FaUsers} size={12} />
             <img src="public/join.svg" alt="User Avatar" className="w-10 h-10 mb-8 mt-4" />
 
-            <Icon icon={FaRegDotCircle} size={12}/>
+            <Icon icon={FaRegDotCircle} size={12} />
             <img src="public/friend profile pic.svg" alt="User Avatar" className="w-10 h-10 mb-8 mt-4" />
 
-            <Icon icon={FaRegCircle} size={12}/>
+            <Icon icon={FaRegCircle} size={12} />
             <img
               src="./public/image 2.svg"
               alt="User Avatar"
